@@ -1,0 +1,12 @@
+[package]
+name = "chaincryptoautomationtechx"
+version = "0.1.0"
+edition = "2021"
+authors = ["uhsr"]
+description = "ChainCryptoAutomationTechX implementation in Rust"
+license = "MIT"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.10"
+clap = { version = "4.0", features = ["derive"] }
